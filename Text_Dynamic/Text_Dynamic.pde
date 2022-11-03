@@ -6,6 +6,14 @@ String title = "Ayaka!", footer = "Ayato!";
 PFont titleFont; 
 color blue=#3390C1, green=#11B98E, hydro=#0051D8, red=#C93A16, resetDefaultInk=#FFFFFF;//Night Mode Friendly
 //
+void setup() {}//End setup
+//
+void draw() {}//End draw
+//
+void keypressed() {}//End keyPressed
+//
+void mousePressed() {}//End mousePressed
+//
 size(500, 600); //Portrait
 //Copy Display Alogorhythm
 appWidth = width;
@@ -31,7 +39,6 @@ titleFont = createFont("Calibri", 48); //Verfied the font exists in Processing.J
 //Layout or text space or typograpgical feaures 
 rect(titleX, titleY, titleWidth, titleHeight);
 rect(footerX, footerY, footerWidth, footerHeight);
-rect(sectionX, secitonY, footer
 //
 //Repeated Executed Code
 fill(blue );
