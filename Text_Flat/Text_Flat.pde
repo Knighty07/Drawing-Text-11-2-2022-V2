@@ -31,7 +31,6 @@ titleFont = createFont("Calibri", 48); //Verfied the font exists in Processing.J
 //Layout or text space or typograpgical feaures 
 rect(titleX, titleY, titleWidth, titleHeight);
 rect(footerX, footerY, footerWidth, footerHeight);
-rect(sectionX, secitonY, footer
 //
 //Repeated Executed Code
 fill(blue );
