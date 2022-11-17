@@ -2,6 +2,7 @@
 int appWidth, appHeight, fontSize;
 float titleX, titleY, titleWidth, titleHeight;
 float footerX, footerY, footerWidth, footerHeight;
+float okX, okY,okWidth, okHeight;
 String title = "Ayaka!", footer = "Ayato!";
 PFont titleFont; 
 color blue=#3390C1, green=#11B98E, hydro=#0051D8, red=#C93A16, resetDefaultInk=#FFFFFF;//Night Mode Friendly
@@ -17,6 +18,10 @@ titleY = appHeight * 1/4;
 footerY= appHeight *3/4;
 titleWidth = footerWidth = appWidth * 1/2;
 titleHeight = footerHeight = appHeight * 1/6;
+okX = appWidth * 1/4;
+okY = appHeight * 1/4;
+//kWidth = * 1/2;
+//okHeight= * 1/9;
 //
 
 //Text Setup, single executed code
